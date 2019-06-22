@@ -1,4 +1,5 @@
 const request = require('request')
+const geocode = require('./utils/geocode')
 
 const url = 'https://api.darksky.net/forecast/788a1670331357d3caead0cdbc7cf261/37.8267,-122.4233?units=us'
 const geocodeUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoiYWRyaWFuY2FiIiwiYSI6ImNqeDQ0ajdmbDAwaTYzeXF3eWs0Zmdqd2oifQ.yl-7xZvu42_H5yABVoVhSw&limit=1https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoiYWRyaWFuY2FiIiwiYSI6ImNqeDQ0ajdmbDAwaTYzeXF3eWs0Zmdqd2oifQ.yl-7xZvu42_H5yABVoVhSw&limit=1'
@@ -20,16 +21,22 @@ request({ url: url, json: true }, (error, response) => {
 
 
 
-request({ url: geocodeUrl, json: true }, (error, response) => {
-    if(error){
-        console.log('Unable to connect to a network!')
-    }else if(response.body.message){
-        console.log('Unable to find location!')
-    }else{
-    const latitude = response.body.features[0].center[1]
-    const longitude = response.body.features[0].center[0]
-    console.log(longitude, latitude)
-    }
+// request({ url: geocodeUrl, json: true }, (error, response) => {
+//     if(error){
+//         console.log('Unable to connect to a network!')
+//     }else if(response.body.message){
+//         console.log('Unable to find location!')
+//     }else{
+//     const latitude = response.body.features[0].center[1]
+//     const longitude = response.body.features[0].center[0]
+//     console.log(longitude, latitude)
+//     }
    
+// })
+
+
+geocode('Adelaide', (error, data) => {
+    console.log('Error', error)
+    console.log('Data', data)
 })
 

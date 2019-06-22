@@ -5,7 +5,7 @@ setTimeout(() => {
 
 const names = ['Andrew', 'Jen', 'Jesse']
 const shortNames = names.filter((name) => {
-    return name.length <=4
+    return name.length <= 4
 })
 
 const geocode = (address, callback) => {
