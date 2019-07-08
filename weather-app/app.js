@@ -1,5 +1,5 @@
-const geocode = require('../weather-app/utils/geocode')
-const forecast = require('../weather-app/utils/forecast')
+const geocode = require('./utils/geocode')
+const forecast = require('./utils/forecast')
 
 const location = process.argv[2]
 if(!location){
