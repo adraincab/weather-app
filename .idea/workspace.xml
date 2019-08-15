@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59d40e4a-75f8-4117-a21d-8fe12d5080b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/routers/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/routers/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/routers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/routers/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +37,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="150" />
+    <option name="x" value="402" />
+    <option name="y" value="526" />
     <option name="width" value="1750" />
     <option name="height" value="1250" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -97,14 +100,15 @@
       <workItem from="1561592907587" duration="16000" />
       <workItem from="1561614546951" duration="50000" />
       <workItem from="1561783112995" duration="602000" />
+      <workItem from="1565502833573" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668000" />
+    <option name="totallyTimeSpent" value="674000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="324" y="120" width="1400" height="1000" extended-state="0" />
+    <frame x="322" y="421" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
